@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Javascript</title>
+        <style>
+            .kutu
+            {
+                width: 200px;
+                height: 200px;
+                margin:10px;
+                display: inline-block;
+            }
+            #kutu_mavi
+            {
+                background-color: blue;
+
+            }
+            #kutu_pembe
+            {
+                background-color: pink;
+
+            }
+            #kutu_sari
+            {
+                background-color:yellow;
+
+            }
+        </style>
+    </head>
+    <body>
+<div id=kutu_mavi class="kutu"></div>
+<div id=kutu_pembe class="kutu"></div>
+<div id=kutu_sari class="kutu"></div>
+
+<script>
+    document.getElementById('kutu_mavi').onclick=function() {
+        document.getElementById('kutu_mavi').style.display="none";    
+    }
+    document.getElementById('kutu_pembe').onclick=function() {
+        document.getElementById('kutu_pembe').style.display="none";    
+    }
+    document.getElementById('kutu_sari').onclick=function() {
+        document.getElementById('kutu_sari').style.display="none";    
+    }
+</script>
+    </body>
+</html>
